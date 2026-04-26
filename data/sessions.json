@@ -340,5 +340,37 @@
     "status": "pending",
     "repeat_number": 2,
     "created_at": 1777222984
+  },
+  {
+    "id": 1777223765200,
+    "candidate_id": 1777199623940,
+    "obzvon_type": 1,
+    "conducted_by": "427580483375726613",
+    "conducted_by_name": "жужик",
+    "answers": [
+      "+",
+      "0",
+      "50/50",
+      "+",
+      "0",
+      "50/50",
+      "+",
+      "50/50",
+      "+",
+      "0",
+      "+",
+      "0"
+    ],
+    "plus": 5,
+    "zero": 4,
+    "half": 3,
+    "total": 12,
+    "pct": 54,
+    "score": "6.5/12 (54%)",
+    "comment": "123",
+    "duration": 24,
+    "status": "pending",
+    "repeat_number": 3,
+    "created_at": 1777223765
   }
 ]
