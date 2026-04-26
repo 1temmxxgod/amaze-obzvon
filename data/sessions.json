@@ -273,5 +273,37 @@
     "pct": 67,
     "score": "8/12 (67%)",
     "created_at": 1777221648
+  },
+  {
+    "id": 1777222835120,
+    "candidate_id": 1777199623940,
+    "obzvon_type": 1,
+    "conducted_by": "1088164341167177798",
+    "conducted_by_name": "цфудик",
+    "answers": [
+      "+",
+      "+",
+      "0",
+      "0",
+      "0",
+      "50/50",
+      "0",
+      "+",
+      "+",
+      "+",
+      "50/50",
+      "50/50"
+    ],
+    "plus": 5,
+    "zero": 4,
+    "half": 3,
+    "total": 12,
+    "pct": 54,
+    "score": "6.5/12 (54%)",
+    "comment": "сомнительный паренек",
+    "duration": 18,
+    "status": "pending",
+    "repeat_number": 1,
+    "created_at": 1777222835
   }
 ]
