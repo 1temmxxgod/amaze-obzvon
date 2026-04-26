@@ -171,9 +171,12 @@
     "score": "11/12 (92%)",
     "comment": "123",
     "duration": 10,
-    "status": "pending",
+    "status": "rejected",
     "repeat_number": 1,
-    "created_at": 1777228537
+    "created_at": 1777228537,
+    "status_by": "1088164341167177798",
+    "status_by_name": "ne.cfudik",
+    "status_at": 1777231491
   },
   {
     "id": 1777229069437,
