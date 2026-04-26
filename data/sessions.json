@@ -399,13 +399,13 @@
     "total": 12,
     "pct": 54,
     "score": "6.5/12 (54%)",
-    "comment": "123",
+    "comment": "1233",
     "duration": 24,
-    "status": "pending",
+    "status": "accepted",
     "repeat_number": 3,
     "created_at": 1777223765,
     "status_by": "1088164341167177798",
     "status_by_name": "цфудик",
-    "status_at": 1777224499
+    "status_at": 1777224517
   }
 ]
