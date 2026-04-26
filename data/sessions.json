@@ -308,5 +308,37 @@
     "status_by": "1088164341167177798",
     "status_by_name": "цфудик",
     "status_at": 1777222943
+  },
+  {
+    "id": 1777222984250,
+    "candidate_id": 1777199623940,
+    "obzvon_type": 1,
+    "conducted_by": "1088164341167177798",
+    "conducted_by_name": "цфудик",
+    "answers": [
+      "0",
+      "0",
+      "+",
+      "+",
+      "+",
+      "+",
+      "50/50",
+      "50/50",
+      "50/50",
+      "50/50",
+      "50/50",
+      "50/50"
+    ],
+    "plus": 4,
+    "zero": 2,
+    "half": 6,
+    "total": 12,
+    "pct": 58,
+    "score": "7/12 (58%)",
+    "comment": "",
+    "duration": 14,
+    "status": "pending",
+    "repeat_number": 2,
+    "created_at": 1777222984
   }
 ]
