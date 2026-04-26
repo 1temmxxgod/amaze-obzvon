@@ -207,8 +207,11 @@
     "score": "8.5/15 (57%)",
     "comment": "3123",
     "duration": 17,
-    "status": "pending",
+    "status": "accepted",
     "repeat_number": 1,
-    "created_at": 1777229069
+    "created_at": 1777229069,
+    "status_by": "1088164341167177798",
+    "status_by_name": "ne.cfudik",
+    "status_at": 1777231480
   }
 ]
