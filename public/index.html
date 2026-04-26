@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AMAZE ОБЗВОН</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="sidebar-logo-icon">🎯</div>
+      <span class="sidebar-logo-text">AMAZE ОБЗВОН</span>
+    </div>
+    <nav class="sidebar-nav">
+      <button class="nav-item active" data-page="candidates">
+        <span class="nav-icon">👥</span> Кандидаты
+      </button>
+      <button class="nav-item" data-page="results">
+        <span class="nav-icon">📊</span> Результаты
+      </button>
+      <button class="nav-item" data-page="profile">
+        <span class="nav-icon">👤</span> Профиль
+      </button>
+      <button class="nav-item admin-only" data-page="manage" id="navManage">
+        <span class="nav-icon">⚙️</span> Управление
+      </button>
+    </nav>
+    <div class="sidebar-user">
+      <div class="sidebar-user-card" onclick="navigate('profile')">
+        <img id="sidebarAvatar" class="sidebar-avatar" src="" alt="" />
+        <div class="sidebar-user-info">
+          <div class="sidebar-username" id="sidebarName">...</div>
+          <div class="sidebar-role" id="sidebarRole">Загрузка...</div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- Page: Candidates -->
+    <div class="page active" id="page-candidates">
+      <div class="page-header">
+        <div>
+          <div class="page-title">Кандидаты</div>
+          <div class="page-subtitle">Список участников для обзвона</div>
+        </div>
+        <button class="btn btn-primary admin-only" id="btnAddCandidate" onclick="openModal('modalAdd')">
+          + Добавить
+        </button>
+      </div>
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input class="search-input" id="searchInput" type="text" placeholder="Поиск кандидата..." oninput="filterCandidates()" />
+      </div>
+      <div id="candidateGrid" class="candidate-grid"></div>
+    </div>
+
+    <!-- Page: Results -->
+    <div class="page" id="page-results">
+      <div class="page-header">
+        <div>
+          <div class="page-title">Результаты</div>
+          <div class="page-subtitle">Все проведённые обзвоны</div>
+        </div>
+        <div style="display:flex;gap:8px">
+          <select class="form-input" id="filterType" onchange="loadResults()" style="width:auto">
+            <option value="">Все типы</option>
+            <option value="1">Обзвон 1</option>
+            <option value="2">Обзвон 2</option>
+            <option value="3">Обзвон 3</option>
+          </select>
+        </div>
+      </div>
+      <div class="stats-row" id="resultsStats"></div>
+      <div class="card" style="padding:0;overflow:hidden">
+        <div id="resultsTableWrap"></div>
+      </div>
+    </div>
+
+    <!-- Page: Profile -->
+    <div class="page" id="page-profile">
+      <div class="page-header">
+        <div>
+          <div class="page-title">Профиль</div>
+          <div class="page-subtitle">Ваша статистика и настройки</div>
+        </div>
+        <button class="btn btn-ghost" onclick="refreshProfile()">🔄 Обновить роли</button>
+      </div>
+      <div id="profileContent"></div>
+    </div>
+
+    <!-- Page: Manage (admin) -->
+    <div class="page" id="page-manage">
+      <div class="page-header">
+        <div>
+          <div class="page-title">Управление</div>
+          <div class="page-subtitle">Только для администраторов</div>
+        </div>
+      </div>
+      <div id="manageContent"></div>
+    </div>
+
+  </main>
+</div>
+
+<!-- Modal: Add Candidate -->
+<div class="modal-overlay" id="modalAdd">
+  <div class="modal">
+    <div class="modal-head">
+      <h3>Добавить кандидата</h3>
+      <button class="btn-close" onclick="closeModal('modalAdd')">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label">Никнейм / Имя</label>
+        <input class="form-input" id="inputName" type="text" placeholder="Введите никнейм" />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Discord ID (необязательно)</label>
+        <input class="form-input" id="inputDiscordId" type="text" placeholder="123456789..." />
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-ghost" onclick="closeModal('modalAdd')">Отмена</button>
+      <button class="btn btn-primary" onclick="addCandidate()">Добавить</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Interview -->
+<div class="modal-overlay" id="modalInterview">
+  <div class="modal modal-wide">
+    <div class="modal-head">
+      <h3 id="interviewTitle">Обзвон</h3>
+      <button class="btn-close" onclick="closeModal('modalInterview')">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="type-selector" id="typeSelector">
+        <button class="type-btn active" data-type="1" onclick="selectType(1)">📋 Обзвон 1</button>
+        <button class="type-btn" data-type="2" onclick="selectType(2)">📋 Обзвон 2</button>
+        <button class="type-btn" data-type="3" onclick="selectType(3)">📋 Обзвон 3</button>
+      </div>
+      <div id="progressIndicator" class="progress-indicator"></div>
+      <div id="questionsContainer"></div>
+      <div id="scorePreview" style="display:none">
+        <div class="divider"></div>
+        <div class="score-bar-wrap">
+          <div class="score-bar-label">
+            <span>Результат</span>
+            <span id="scoreText"></span>
+          </div>
+          <div class="score-bar-track">
+            <div class="score-bar-fill" id="scoreBarFill" style="width:0%"></div>
+          </div>
+        </div>
+      </div>
+      <div id="interviewHistory"></div>
+    </div>
+    <div class="modal-foot" id="interviewFoot" style="display:none">
+      <button class="btn btn-ghost" onclick="closeModal('modalInterview')">Отмена</button>
+      <button class="btn btn-primary" onclick="submitInterview()">💾 Сохранить результат</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast-wrap" id="toastWrap"></div>
+
+<script src="/app.js"></script>
+</body>
+</html>

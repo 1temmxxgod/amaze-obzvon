@@ -1,0 +1,8 @@
+{
+  "outputDirectory": "public",
+  "rewrites": [
+    { "source": "/login", "destination": "/login.html" },
+    { "source": "/interview", "destination": "/interview.html" },
+    { "source": "/", "destination": "/index.html" }
+  ]
+}
