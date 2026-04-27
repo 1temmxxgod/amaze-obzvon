@@ -15,5 +15,14 @@
     "by_name": "ne.cfudik",
     "id": 1777291973616,
     "ts": 1777291973
+  },
+  {
+    "type": "candidate_add",
+    "name": "test",
+    "tag": "leader",
+    "by": "1088164341167177798",
+    "by_name": "ne.cfudik",
+    "id": 1777317577938,
+    "ts": 1777317577
   }
 ]
