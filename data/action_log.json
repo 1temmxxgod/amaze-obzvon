@@ -24,5 +24,16 @@
     "by_name": "ne.cfudik",
     "id": 1777317577938,
     "ts": 1777317577
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1777317575619,
+    "candidate_name": "test",
+    "obzvon_type": 1,
+    "score": "10.5/15 (70%)",
+    "by": "777566978033451049",
+    "by_name": "Light | dartik",
+    "id": 1777403844570,
+    "ts": 1777403844
   }
 ]
