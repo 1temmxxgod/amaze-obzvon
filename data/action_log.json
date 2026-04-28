@@ -35,5 +35,13 @@
     "by_name": "Light | dartik",
     "id": 1777403844570,
     "ts": 1777403844
+  },
+  {
+    "type": "comment_edit",
+    "candidate_name": "test",
+    "by": "777566978033451049",
+    "by_name": "Light | dartik",
+    "id": 1777403865121,
+    "ts": 1777403865
   }
 ]
