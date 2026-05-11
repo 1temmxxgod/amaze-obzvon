@@ -217,5 +217,14 @@
     "by_name": "жужик",
     "id": 1778511695969,
     "ts": 1778511695
+  },
+  {
+    "type": "status_change",
+    "candidate_name": "xwsd",
+    "status": "rejected",
+    "by": "427580483375726613",
+    "by_name": "жужик",
+    "id": 1778511707023,
+    "ts": 1778511707
   }
 ]
