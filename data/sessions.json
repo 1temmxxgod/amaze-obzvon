@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": 1778504712264,
+    "candidate_id": 1778417357703,
+    "obzvon_type": 1,
+    "candidate_tag": "helper",
+    "conducted_by": "1172967339558441073",
+    "conducted_by_name": "Light | saltick",
+    "answers": [
+      "0",
+      "0",
+      "+",
+      "+",
+      "+",
+      "+",
+      "0",
+      "+",
+      "+",
+      "+",
+      "+",
+      "0"
+    ],
+    "plus": 8,
+    "zero": 4,
+    "half": 0,
+    "total": 12,
+    "pct": 67,
+    "score": "8/12 (67%)",
+    "comment": "",
+    "duration": 291,
+    "status": "pending",
+    "repeat_number": 1,
+    "created_at": 1778504712
+  }
+]
