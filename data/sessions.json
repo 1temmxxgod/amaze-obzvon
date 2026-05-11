@@ -100,9 +100,12 @@
     "score": "6/12 (50%)",
     "comment": "",
     "duration": 62,
-    "status": "pending",
+    "status": "rejected",
     "repeat_number": 1,
-    "created_at": 1778505141
+    "created_at": 1778505141,
+    "status_by": "427580483375726613",
+    "status_by_name": "жужик",
+    "status_at": 1778511702
   },
   {
     "id": 1778505277803,
