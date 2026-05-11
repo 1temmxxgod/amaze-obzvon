@@ -286,5 +286,38 @@
     "status_by": "427580483375726613",
     "status_by_name": "жужик",
     "status_at": 1778511582
+  },
+  {
+    "id": 1778514145158,
+    "candidate_id": 1778417357711,
+    "obzvon_type": 1,
+    "candidate_tag": "helper",
+    "conducted_by": "1172967339558441073",
+    "conducted_by_name": "Light | saltick",
+    "answers": [
+      "0",
+      "0",
+      "0",
+      "50/50",
+      "50/50",
+      "50/50",
+      "50/50",
+      "50/50",
+      "+",
+      "+",
+      "0",
+      "50/50"
+    ],
+    "plus": 2,
+    "zero": 4,
+    "half": 6,
+    "total": 12,
+    "pct": 42,
+    "score": "5/12 (42%)",
+    "comment": "",
+    "duration": 246,
+    "status": "pending",
+    "repeat_number": 1,
+    "created_at": 1778514145
   }
 ]
