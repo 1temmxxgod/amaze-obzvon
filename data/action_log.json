@@ -244,5 +244,14 @@
     "by_name": "жужик",
     "id": 1778511716993,
     "ts": 1778511716
+  },
+  {
+    "type": "status_change",
+    "candidate_name": "fire",
+    "status": "rejected",
+    "by": "427580483375726613",
+    "by_name": "жужик",
+    "id": 1778511817323,
+    "ts": 1778511817
   }
 ]
