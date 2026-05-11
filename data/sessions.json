@@ -61,9 +61,12 @@
     "score": "9.5/12 (79%)",
     "comment": "молодец",
     "duration": 268,
-    "status": "pending",
+    "status": "accepted",
     "repeat_number": 1,
-    "created_at": 1778504932
+    "created_at": 1778504932,
+    "status_by": "427580483375726613",
+    "status_by_name": "жужик",
+    "status_at": 1778511625
   },
   {
     "id": 1778505141808,
