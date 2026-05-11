@@ -229,5 +229,38 @@
     "status": "pending",
     "repeat_number": 1,
     "created_at": 1778507643
+  },
+  {
+    "id": 1778511484551,
+    "candidate_id": 1778417357706,
+    "obzvon_type": 3,
+    "candidate_tag": "helper",
+    "conducted_by": "956591306417786910",
+    "conducted_by_name": "Light | anjee",
+    "answers": [
+      "50/50",
+      "+",
+      "+",
+      "+",
+      "0",
+      "+",
+      "+",
+      "50/50",
+      "+",
+      "50/50",
+      "+",
+      "0"
+    ],
+    "plus": 7,
+    "zero": 2,
+    "half": 3,
+    "total": 12,
+    "pct": 71,
+    "score": "8.5/12 (71%)",
+    "comment": "",
+    "duration": 139,
+    "status": "pending",
+    "repeat_number": 1,
+    "created_at": 1778511484
   }
 ]
