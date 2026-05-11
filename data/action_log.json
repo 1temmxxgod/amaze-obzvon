@@ -130,5 +130,16 @@
     "by_name": "цфудик",
     "id": 1778507217499,
     "ts": 1778507217
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1778507043481,
+    "candidate_name": "тест",
+    "obzvon_type": 1,
+    "score": "4.5/12 (38%)",
+    "by": "956591306417786910",
+    "by_name": "Light | anjee",
+    "id": 1778507265650,
+    "ts": 1778507265
   }
 ]
