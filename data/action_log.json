@@ -141,5 +141,16 @@
     "by_name": "Light | anjee",
     "id": 1778507265650,
     "ts": 1778507265
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1778417357707,
+    "candidate_name": "! 「GS.F」ⲙⲁⲕυⲧⲟⲱⲁ",
+    "obzvon_type": 3,
+    "score": "4/12 (33%)",
+    "by": "1172967339558441073",
+    "by_name": "Light | saltick",
+    "id": 1778507646500,
+    "ts": 1778507646
   }
 ]
