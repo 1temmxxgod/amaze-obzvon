@@ -152,5 +152,16 @@
     "by_name": "Light | saltick",
     "id": 1778507646500,
     "ts": 1778507646
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1778417357706,
+    "candidate_name": "n1 по media",
+    "obzvon_type": 3,
+    "score": "8.5/12 (71%)",
+    "by": "956591306417786910",
+    "by_name": "Light | anjee",
+    "id": 1778511498644,
+    "ts": 1778511498
   }
 ]
