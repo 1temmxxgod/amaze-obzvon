@@ -163,5 +163,14 @@
     "by_name": "Light | anjee",
     "id": 1778511498644,
     "ts": 1778511498
+  },
+  {
+    "type": "status_change",
+    "candidate_name": "n1 по media",
+    "status": "accepted",
+    "by": "427580483375726613",
+    "by_name": "жужик",
+    "id": 1778511586912,
+    "ts": 1778511586
   }
 ]
