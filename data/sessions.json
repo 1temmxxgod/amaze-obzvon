@@ -28,9 +28,12 @@
     "score": "8/12 (67%)",
     "comment": "",
     "duration": 291,
-    "status": "pending",
+    "status": "accepted",
     "repeat_number": 1,
-    "created_at": 1778504712
+    "created_at": 1778504712,
+    "status_by": "427580483375726613",
+    "status_by_name": "жужик",
+    "status_at": 1778511632
   },
   {
     "id": 1778504932428,
