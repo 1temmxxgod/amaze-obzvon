@@ -367,5 +367,16 @@
     "by_name": "Light | saltick",
     "id": 1780064798066,
     "ts": 1780064798
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1779996186260,
+    "candidate_name": "discipline",
+    "obzvon_type": 3,
+    "score": "8/12 (67%)",
+    "by": "956591306417786910",
+    "by_name": "Light | anjee",
+    "id": 1780065029047,
+    "ts": 1780065029
   }
 ]
