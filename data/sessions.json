@@ -196,5 +196,38 @@
     "status": "pending",
     "repeat_number": 1,
     "created_at": 1780064129
+  },
+  {
+    "id": 1780064376690,
+    "candidate_id": 1779996186263,
+    "obzvon_type": 2,
+    "candidate_tag": "helper",
+    "conducted_by": "1172967339558441073",
+    "conducted_by_name": "Light | saltick",
+    "answers": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "plus": 0,
+    "zero": 12,
+    "half": 0,
+    "total": 12,
+    "pct": 0,
+    "score": "0/12 (0%)",
+    "comment": "сказал что не готов к обзвону",
+    "duration": 141,
+    "status": "pending",
+    "repeat_number": 1,
+    "created_at": 1780064376
   }
 ]
