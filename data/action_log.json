@@ -356,5 +356,16 @@
     "by_name": "ne.cfudik",
     "id": 1780064778106,
     "ts": 1780064778
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1779996186265,
+    "candidate_name": "extrolex",
+    "obzvon_type": 2,
+    "score": "5.5/12 (46%)",
+    "by": "1172967339558441073",
+    "by_name": "Light | saltick",
+    "id": 1780064798066,
+    "ts": 1780064798
   }
 ]
