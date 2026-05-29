@@ -411,5 +411,16 @@
     "by_name": "ne.cfudik",
     "id": 1780079579697,
     "ts": 1780079579
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1780063567226,
+    "candidate_name": "ТЕСТОВЫЙ НЕ УДАЛЯТЬ",
+    "obzvon_type": 1,
+    "score": "12/12 (100%)",
+    "by": "1088164341167177798",
+    "by_name": "ne.cfudik",
+    "id": 1780079852350,
+    "ts": 1780079852
   }
 ]
