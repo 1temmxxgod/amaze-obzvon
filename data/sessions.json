@@ -658,5 +658,41 @@
     "status": "pending",
     "repeat_number": 8,
     "created_at": 1780079842
+  },
+  {
+    "id": 1780079924925,
+    "candidate_id": 1780079904921,
+    "obzvon_type": 1,
+    "candidate_tag": "leader",
+    "conducted_by": "1088164341167177798",
+    "conducted_by_name": "ne.cfudik",
+    "answers": [
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+"
+    ],
+    "plus": 15,
+    "zero": 0,
+    "half": 0,
+    "total": 15,
+    "pct": 100,
+    "score": "15/15 (100%)",
+    "comment": "123",
+    "duration": 14,
+    "status": "pending",
+    "repeat_number": 1,
+    "created_at": 1780079924
   }
 ]
