@@ -345,5 +345,16 @@
     "by_name": "Light | saltick",
     "id": 1780064381881,
     "ts": 1780064381
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1780063567226,
+    "candidate_name": "ТЕСТОВЫЙ НЕ УДАЛЯТЬ",
+    "obzvon_type": 1,
+    "score": "0/12 (0%)",
+    "by": "1088164341167177798",
+    "by_name": "ne.cfudik",
+    "id": 1780064778106,
+    "ts": 1780064778
   }
 ]
