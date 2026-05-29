@@ -334,5 +334,16 @@
     "by_name": "Light | saltick",
     "id": 1780064131076,
     "ts": 1780064131
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1779996186263,
+    "candidate_name": ".Gungi",
+    "obzvon_type": 2,
+    "score": "0/12 (0%)",
+    "by": "1172967339558441073",
+    "by_name": "Light | saltick",
+    "id": 1780064381881,
+    "ts": 1780064381
   }
 ]
