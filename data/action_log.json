@@ -312,5 +312,16 @@
     "by_name": "Light | anjee",
     "id": 1780063758183,
     "ts": 1780063758
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1779996186262,
+    "candidate_name": "fire",
+    "obzvon_type": 2,
+    "score": "6/12 (50%)",
+    "by": "1172967339558441073",
+    "by_name": "Light | saltick",
+    "id": 1780063767597,
+    "ts": 1780063767
   }
 ]
