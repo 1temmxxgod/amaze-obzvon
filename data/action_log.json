@@ -323,5 +323,16 @@
     "by_name": "Light | saltick",
     "id": 1780063767597,
     "ts": 1780063767
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1779996186254,
+    "candidate_name": "чиловый мальчик",
+    "obzvon_type": 2,
+    "score": "7/12 (58%)",
+    "by": "1172967339558441073",
+    "by_name": "Light | saltick",
+    "id": 1780064131076,
+    "ts": 1780064131
   }
 ]
