@@ -281,5 +281,16 @@
     "by_name": "жужик",
     "id": 1779996188607,
     "ts": 1779996188
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1779996186261,
+    "candidate_name": "###",
+    "obzvon_type": 2,
+    "score": "11/12 (92%)",
+    "by": "1172967339558441073",
+    "by_name": "Light | saltick",
+    "id": 1780061203033,
+    "ts": 1780061203
   }
 ]
