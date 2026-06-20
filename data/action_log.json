@@ -498,5 +498,16 @@
     "by_name": "ne.cfudik",
     "id": 1781977342467,
     "ts": 1781977342
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1781977340211,
+    "candidate_name": "123",
+    "obzvon_type": 1,
+    "score": "5.5/12 (46%)",
+    "by": "1088164341167177798",
+    "by_name": "ne.cfudik",
+    "id": 1781977366864,
+    "ts": 1781977366
   }
 ]
