@@ -94,9 +94,12 @@
     "score": "2.5/12 (21%)",
     "comment": "",
     "duration": 233,
-    "status": "pending",
+    "status": "rejected",
     "repeat_number": 1,
-    "created_at": 1781965287
+    "created_at": 1781965287,
+    "status_by": "873661994195091557",
+    "status_by_name": "вайпер | promo: viper (lock in)",
+    "status_at": 1781986619
   },
   {
     "id": 1781966095676,
