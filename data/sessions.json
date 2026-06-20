@@ -31,5 +31,38 @@
     "status": "pending",
     "repeat_number": 1,
     "created_at": 1781964227
+  },
+  {
+    "id": 1781964907108,
+    "candidate_id": 1781962959766,
+    "obzvon_type": 1,
+    "candidate_tag": "helper",
+    "conducted_by": "1307664477147365409",
+    "conducted_by_name": "Harami",
+    "answers": [
+      "0",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "+",
+      "50/50",
+      "+",
+      "50/50"
+    ],
+    "plus": 9,
+    "zero": 1,
+    "half": 2,
+    "total": 12,
+    "pct": 83,
+    "score": "10/12 (83%)",
+    "comment": "",
+    "duration": 216,
+    "status": "pending",
+    "repeat_number": 1,
+    "created_at": 1781964907
   }
 ]
