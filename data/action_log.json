@@ -478,5 +478,16 @@
     "by_name": "ne.cfudik",
     "id": 1781962962003,
     "ts": 1781962962
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1781962959769,
+    "candidate_name": "Шитик",
+    "obzvon_type": 3,
+    "score": "8/12 (67%)",
+    "by": "1307664477147365409",
+    "by_name": "Harami",
+    "id": 1781966121444,
+    "ts": 1781966121
   }
 ]
