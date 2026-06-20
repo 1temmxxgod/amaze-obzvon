@@ -542,5 +542,14 @@
     "by_name": "ne.cfudik",
     "id": 1781977442532,
     "ts": 1781977442
+  },
+  {
+    "type": "status_change",
+    "candidate_name": "mark_borov",
+    "status": "rejected",
+    "by": "873661994195091557",
+    "by_name": "вайпер | promo: viper (lock in)",
+    "id": 1781986642927,
+    "ts": 1781986642
   }
 ]
