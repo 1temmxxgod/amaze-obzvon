@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": 1781964227936,
+    "candidate_id": 1781962959761,
+    "obzvon_type": 1,
+    "candidate_tag": "helper",
+    "conducted_by": "1307664477147365409",
+    "conducted_by_name": "Harami",
+    "answers": [
+      "0",
+      "0",
+      "50/50",
+      "+",
+      "50/50",
+      "0",
+      "+",
+      "+",
+      "50/50",
+      "50/50",
+      "0",
+      "0"
+    ],
+    "plus": 3,
+    "zero": 5,
+    "half": 4,
+    "total": 12,
+    "pct": 42,
+    "score": "5/12 (42%)",
+    "comment": "Зовут: Егор. 15 лет.",
+    "duration": 354,
+    "status": "pending",
+    "repeat_number": 1,
+    "created_at": 1781964227
+  }
+]
