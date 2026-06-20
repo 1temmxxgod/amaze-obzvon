@@ -262,5 +262,38 @@
     "status": "pending",
     "repeat_number": 2,
     "created_at": 1781977375
+  },
+  {
+    "id": 1781977401670,
+    "candidate_id": 1781977340211,
+    "obzvon_type": 1,
+    "candidate_tag": "helper",
+    "conducted_by": "1088164341167177798",
+    "conducted_by_name": "ne.cfudik",
+    "answers": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "plus": 0,
+    "zero": 12,
+    "half": 0,
+    "total": 12,
+    "pct": 0,
+    "score": "0/12 (0%)",
+    "comment": "",
+    "duration": 13,
+    "status": "pending",
+    "repeat_number": 3,
+    "created_at": 1781977401
   }
 ]
