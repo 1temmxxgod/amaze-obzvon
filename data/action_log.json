@@ -470,5 +470,13 @@
     "by_name": "ne.cfudik",
     "id": 1780422510774,
     "ts": 1780422510
+  },
+  {
+    "type": "candidate_bulk_add",
+    "count": 14,
+    "by": "1088164341167177798",
+    "by_name": "ne.cfudik",
+    "id": 1781962962003,
+    "ts": 1781962962
   }
 ]
