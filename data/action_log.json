@@ -598,5 +598,16 @@
     "by_name": "Light | saltick",
     "id": 1789573828475,
     "ts": 1789573828
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1789500630970,
+    "candidate_name": "Alaskaaa",
+    "obzvon_type": 3,
+    "score": "6/12 (50%)",
+    "by": "777566978033451049",
+    "by_name": "Light | dartik",
+    "id": 1789574055932,
+    "ts": 1789574055
   }
 ]
