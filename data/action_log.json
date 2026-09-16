@@ -587,5 +587,16 @@
     "by_name": "протект",
     "id": 1789573779437,
     "ts": 1789573779
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1789500630974,
+    "candidate_name": "simyyy",
+    "obzvon_type": 3,
+    "score": "7/12 (58%)",
+    "by": "1172967339558441073",
+    "by_name": "Light | saltick",
+    "id": 1789573828475,
+    "ts": 1789573828
   }
 ]
