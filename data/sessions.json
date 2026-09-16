@@ -64,5 +64,38 @@
     "status": "pending",
     "repeat_number": 1,
     "created_at": 1789573478
+  },
+  {
+    "id": 1789573567033,
+    "candidate_id": 1789500630971,
+    "obzvon_type": 2,
+    "candidate_tag": "helper",
+    "conducted_by": "452766747318157324",
+    "conducted_by_name": "протект",
+    "answers": [
+      "0",
+      "+",
+      "0",
+      "+",
+      "+",
+      "+",
+      "50/50",
+      "+",
+      "+",
+      "+",
+      "50/50",
+      "+"
+    ],
+    "plus": 8,
+    "zero": 2,
+    "half": 2,
+    "total": 12,
+    "pct": 75,
+    "score": "9/12 (75%)",
+    "comment": "Богдан 15,бывший аноним",
+    "duration": 425,
+    "status": "pending",
+    "repeat_number": 1,
+    "created_at": 1789573567
   }
 ]
