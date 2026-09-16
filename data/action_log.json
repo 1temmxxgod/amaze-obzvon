@@ -578,5 +578,14 @@
     "by_name": "Light | saltick",
     "id": 1789573483859,
     "ts": 1789573483
+  },
+  {
+    "type": "candidate_add",
+    "name": "rhythms",
+    "tag": "helper",
+    "by": "452766747318157324",
+    "by_name": "протект",
+    "id": 1789573779437,
+    "ts": 1789573779
   }
 ]
