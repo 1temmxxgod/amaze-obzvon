@@ -196,5 +196,38 @@
     "status": "pending",
     "repeat_number": 1,
     "created_at": 1789574395
+  },
+  {
+    "id": 1789574970210,
+    "candidate_id": 1789500630966,
+    "obzvon_type": 3,
+    "candidate_tag": "helper",
+    "conducted_by": "777566978033451049",
+    "conducted_by_name": "Light | dartik",
+    "answers": [
+      "50/50",
+      "+",
+      "+",
+      "+",
+      "0",
+      "50/50",
+      "50/50",
+      "0",
+      "+",
+      "0",
+      "+",
+      "0"
+    ],
+    "plus": 5,
+    "zero": 4,
+    "half": 3,
+    "total": 12,
+    "pct": 54,
+    "score": "6.5/12 (54%)",
+    "comment": "Никита, 17, учится в колледже, заходит вечером, на часов 5-6",
+    "duration": 483,
+    "status": "pending",
+    "repeat_number": 1,
+    "created_at": 1789574970
   }
 ]
