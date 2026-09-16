@@ -130,5 +130,38 @@
     "status": "pending",
     "repeat_number": 1,
     "created_at": 1789573824
+  },
+  {
+    "id": 1789574046567,
+    "candidate_id": 1789500630970,
+    "obzvon_type": 3,
+    "candidate_tag": "helper",
+    "conducted_by": "777566978033451049",
+    "conducted_by_name": "Light | dartik",
+    "answers": [
+      "50/50",
+      "0",
+      "0",
+      "+",
+      "50/50",
+      "+",
+      "+",
+      "50/50",
+      "0",
+      "0",
+      "50/50",
+      "+"
+    ],
+    "plus": 4,
+    "zero": 4,
+    "half": 4,
+    "total": 12,
+    "pct": 50,
+    "score": "6/12 (50%)",
+    "comment": "Олег 16 лет, много где стоял, принц дм хз че эт, гром дм га, хз че эт",
+    "duration": 299,
+    "status": "pending",
+    "repeat_number": 1,
+    "created_at": 1789574046
   }
 ]
