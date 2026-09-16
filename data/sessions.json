@@ -31,5 +31,38 @@
     "status": "pending",
     "repeat_number": 1,
     "created_at": 1789572853
+  },
+  {
+    "id": 1789573478680,
+    "candidate_id": 1789500630975,
+    "obzvon_type": 2,
+    "candidate_tag": "helper",
+    "conducted_by": "1172967339558441073",
+    "conducted_by_name": "Light | saltick",
+    "answers": [
+      "+",
+      "+",
+      "0",
+      "50/50",
+      "50/50",
+      "+",
+      "50/50",
+      "+",
+      "+",
+      "50/50",
+      "0",
+      "50/50"
+    ],
+    "plus": 5,
+    "zero": 2,
+    "half": 5,
+    "total": 12,
+    "pct": 63,
+    "score": "7.5/12 (63%)",
+    "comment": "",
+    "duration": 471,
+    "status": "pending",
+    "repeat_number": 1,
+    "created_at": 1789573478
   }
 ]
