@@ -262,5 +262,38 @@
     "status": "pending",
     "repeat_number": 1,
     "created_at": 1789575330
+  },
+  {
+    "id": 1789575771177,
+    "candidate_id": 1789500630967,
+    "obzvon_type": 1,
+    "candidate_tag": "helper",
+    "conducted_by": "777566978033451049",
+    "conducted_by_name": "Light | dartik",
+    "answers": [
+      "50/50",
+      "+",
+      "50/50",
+      "+",
+      "+",
+      "50/50",
+      "0",
+      "+",
+      "50/50",
+      "50/50",
+      "0",
+      "0"
+    ],
+    "plus": 4,
+    "zero": 3,
+    "half": 5,
+    "total": 12,
+    "pct": 54,
+    "score": "6.5/12 (54%)",
+    "comment": "Влад 16 лет, играет в игры, амейз дм, гта года 3 играет. Норм типок так то, отвечал нормально, мб взять",
+    "duration": 429,
+    "status": "pending",
+    "repeat_number": 1,
+    "created_at": 1789575771
   }
 ]
