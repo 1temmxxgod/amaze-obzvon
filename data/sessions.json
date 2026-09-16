@@ -229,5 +229,38 @@
     "status": "pending",
     "repeat_number": 1,
     "created_at": 1789574970
+  },
+  {
+    "id": 1789575330282,
+    "candidate_id": 1789500630969,
+    "obzvon_type": 2,
+    "candidate_tag": "helper",
+    "conducted_by": "777566978033451049",
+    "conducted_by_name": "Light | dartik",
+    "answers": [
+      "+",
+      "0",
+      "+",
+      "+",
+      "50/50",
+      "0",
+      "50/50",
+      "50/50",
+      "+",
+      "+",
+      "+",
+      "50/50"
+    ],
+    "plus": 6,
+    "zero": 2,
+    "half": 4,
+    "total": 12,
+    "pct": 67,
+    "score": "8/12 (67%)",
+    "comment": "Егор, 15 лет, долго играет в гта, амейз дм с самого открытия знает о нем. Хз, как будт друг подсказывал",
+    "duration": 301,
+    "status": "pending",
+    "repeat_number": 1,
+    "created_at": 1789575330
   }
 ]
