@@ -567,5 +567,16 @@
     "by_name": "цфудик",
     "id": 1789500633588,
     "ts": 1789500633
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1789500630975,
+    "candidate_name": "abdula",
+    "obzvon_type": 2,
+    "score": "7.5/12 (63%)",
+    "by": "1172967339558441073",
+    "by_name": "Light | saltick",
+    "id": 1789573483859,
+    "ts": 1789573483
   }
 ]
