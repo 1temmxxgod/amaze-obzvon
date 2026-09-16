@@ -617,5 +617,16 @@
     "by_name": "Light | saltick",
     "id": 1789574064409,
     "ts": 1789574064
+  },
+  {
+    "type": "session_create",
+    "candidate_id": 1789573776941,
+    "candidate_name": "rhythms",
+    "obzvon_type": 2,
+    "score": "9/12 (75%)",
+    "by": "777566978033451049",
+    "by_name": "Light | dartik",
+    "id": 1789574398275,
+    "ts": 1789574398
   }
 ]
